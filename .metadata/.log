@@ -1,0 +1,27 @@
+!SESSION 2013-09-27 11:29:23.587 -----------------------------------------------
+eclipse.buildId=10.2
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/diegomartin/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/diegomartin/Development/GitHub/BlackBerryDevUSAL -keyring /Users/diegomartin/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.ui 2 0 2013-09-27 11:29:29.378
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-09-27 11:29:29.378
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='com.qnx.tools.ide.qde.ui', id='org.eclipse.ui.project.buildAll'
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2013-09-27 11:29:29.459
+!MESSAGE No binding context exists for org.eclipse.ui.contexts.dialog
+
+!ENTRY org.eclipse.ui 4 4 2013-09-27 11:29:32.183
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@8c3eb8}
+
+!ENTRY org.eclipse.core.net 1 0 2013-09-27 11:29:32.915
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.qnx.tools.ide.bbt.core 2 -1 2013-09-27 11:29:40.157
+!MESSAGE No category "null" is defined in the library descriptors.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-09-27 11:29:43.530
+!MESSAGE No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta/iderepo/.
