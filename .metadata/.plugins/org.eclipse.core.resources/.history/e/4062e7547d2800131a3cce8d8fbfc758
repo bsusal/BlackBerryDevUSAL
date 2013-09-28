@@ -1,0 +1,43 @@
+import bb.cascades 1.2
+import bb.cascades.multimedia 1.0
+import bb.cascades.maps 1.0
+
+Page {
+    id: secondPageDefinition
+    property string aux;
+    
+    titleBar: TitleBar {
+        // Localized text with the dynamic translation and locale updates support
+        title: qsTr("Código") + Retranslate.onLocaleOrLanguageChanged
+    }
+    
+    Container {
+        Label {
+            id: texto
+            text: qsTr("Resultado para: ") + "\""+aux+"\""
+            textStyle.fontSizeValue: 60
+        }
+        QrCodeView {
+            data: "asfjskdjfañdsfakdljfñafjdsfjña"
+
+        }
+
+        /*QrCodeView {
+        	id: codigo
+        	
+        	data: aux
+        	errorCorrection: 0
+        	onCreationCompleted: {
+             indicador.running = false;
+         }
+        	
+        }*/
+        
+        /*ActivityIndicator {
+        	id: indicador
+        	running: true
+        	
+        }*/
+
+    }
+}

@@ -1,0 +1,64 @@
+import bb.cascades 1.2
+import bb.cascades.multimedia 1.0
+
+
+NavigationPane {
+    id: navigationPane
+    function crearQR(text){
+        var poppedPage = secondPageDefinition.createObject();
+        poppedPage.aux = text;
+        navigationPane.push(poppedPage);
+    }
+    
+    Page {
+        titleBar: TitleBar {
+            // Localized text with the dynamic translation and locale updates support
+            title: qsTr("Generador QR") + Retranslate.onLocaleOrLanguageChanged
+        }
+
+        Container {
+            TextField {
+                id: recogerDatos
+                horizontalAlignment: HorizontalAlignment.Center
+                hintText: "Introduce el texto a convertir"
+            }
+
+            Button {
+                text: "Convertir"
+                verticalAlignment: VerticalAlignment.Center
+                horizontalAlignment: HorizontalAlignment.Center
+                onClicked: {       
+                    // A second Page is created and pushed when this action is triggered.
+                    crearQR(recogerDatos.text)
+                }
+
+            }
+
+        }
+
+        /*actions: ActionItem {
+         * title: qsTr("Second page") + Retranslate.onLocaleOrLanguageChanged
+         * ActionBar.placement: ActionBarPlacement.OnBar
+         * 
+         * onTriggered: {
+         * // A second Page is created and pushed when this action is triggered.
+         * navigationPane.push(secondPageDefinition.createObject());
+         * }
+         * }
+         * }*/
+        
+        /*onPopTransitionEnded: {
+        // Destroy the popped Page once the back transition has ended.
+        poppedPage.destroy();
+        }*/
+
+        attachedObjects: [
+            // Definition of the second Page, used to dynamically create the Page above.
+            ComponentDefinition {
+                id: secondPageDefinition
+                source: "DetailsPage.qml"
+            }
+        ]
+
+    }
+}

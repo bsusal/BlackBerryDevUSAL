@@ -1,0 +1,64 @@
+import bb.cascades 1.0
+
+NavigationPane {
+    property bool aux
+    property int tamanno
+    function aFahrenheit(grados) {
+        return 1.8 * grados + 32;
+    }
+
+    function aGrados(fahrenheit) {
+        return (fahrenheit - 32) / 1.8;
+    }
+    Page {
+
+        Container {
+            layout: StackLayout {
+                orientation: LayoutOrientation.TopToBottom
+            }
+
+            Label {
+                text: "Conversor Fahrenheit-Centígrados"
+                textStyle.fontSize: tamanno
+                verticalAlignment: VerticalAlignment.Top
+            }
+            Container {
+                layout: StackLayout {
+                    orientation: LayoutOrientation.LeftToRight
+                }
+                TextField {
+                    id: centigrados
+                    hintText: "ºC"
+                    inputMode: TextFieldInputMode.NumbersAndPunctuation
+                    
+                    onTextChanged: {
+                        fahrenheit.text = aFahrenheit(text)
+                    }
+                    
+                    
+                    
+                    verticalAlignment: VerticalAlignment.Center
+                    horizontalAlignment: HorizontalAlignment.Center
+                    layoutProperties: StackLayoutProperties {
+                        spaceQuota: 1
+                    }
+                }
+
+                TextField {
+                    id: fahrenheit
+                    hintText: "Fahrenheit"
+                    inputMode: TextFieldInputMode.NumbersAndPunctuation
+                    onTextChanged: {
+                        centigrados.text = aGrados(text)
+                    }
+                    horizontalAlignment: HorizontalAlignment.Center
+                    verticalAlignment: VerticalAlignment.Center
+                    layoutProperties: StackLayoutProperties {
+                        spaceQuota: 1
+                    }
+                }
+            }
+
+        }
+    }
+}

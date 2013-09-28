@@ -1,0 +1,1 @@
+include (../FewItems.pro)
