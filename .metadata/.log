@@ -25,3 +25,1008 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/diegomartin
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-09-27 11:29:43.530
 !MESSAGE No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta/iderepo/.
+
+!ENTRY org.eclipse.ui 4 0 2013-09-27 12:05:10.951
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3395)
+	at com.qnx.tools.utils.ui.controls.DefaultListItem.computeSize(DefaultListItem.java:309)
+	at org.eclipse.swt.widgets.Control.computeSize(Control.java:873)
+	at com.qnx.tools.utils.ui.controls.CList$ListLayout.computeSize(CList.java:174)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:236)
+	at org.eclipse.swt.custom.ScrolledCompositeLayout.computeSize(ScrolledCompositeLayout.java:32)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:236)
+	at org.eclipse.swt.layout.GridData.computeSize(GridData.java:491)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:218)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:194)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1194)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:703)
+	at org.eclipse.swt.widgets.Display.runSettings(Display.java:4076)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3611)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at com.qnx.tools.ide.bbt.internal.ui.BBTApplication.start(BBTApplication.java:42)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY org.eclipse.ui 4 0 2013-09-27 12:05:40.761
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4342)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.graphics.GC.setFont(GC.java:3395)
+	at com.qnx.tools.utils.ui.controls.DefaultListItem.computeSize(DefaultListItem.java:309)
+	at org.eclipse.swt.widgets.Control.computeSize(Control.java:873)
+	at com.qnx.tools.utils.ui.controls.CList$ListLayout.computeSize(CList.java:174)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:236)
+	at org.eclipse.swt.custom.ScrolledCompositeLayout.computeSize(ScrolledCompositeLayout.java:32)
+	at org.eclipse.swt.widgets.Composite.computeSize(Composite.java:236)
+	at org.eclipse.swt.layout.GridData.computeSize(GridData.java:491)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:218)
+	at org.eclipse.swt.layout.GridLayout.layout(GridLayout.java:194)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1194)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:703)
+	at org.eclipse.swt.widgets.Display.runSettings(Display.java:4076)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3611)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at com.qnx.tools.ide.bbt.internal.ui.BBTApplication.start(BBTApplication.java:42)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SESSION 2013-09-27 23:46:25.066 -----------------------------------------------
+eclipse.buildId=10.2
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/diegomartin/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/diegomartin/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.ui 2 0 2013-09-27 23:46:41.159
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-09-27 23:46:41.159
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='com.qnx.tools.ide.qde.ui', id='org.eclipse.ui.project.buildAll'
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2013-09-27 23:46:41.313
+!MESSAGE No binding context exists for org.eclipse.ui.contexts.dialog
+
+!ENTRY org.eclipse.ui 4 4 2013-09-27 23:46:49.330
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@156cd93} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.core.net 1 0 2013-09-27 23:46:52.333
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-09-27 23:47:12.470
+!MESSAGE No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta/iderepo/.
+
+!ENTRY com.qnx.tools.ide.bbt.core 2 -1 2013-09-27 23:47:15.025
+!MESSAGE No category "null" is defined in the library descriptors.
+!SESSION 2013-09-28 17:59:12.650 -----------------------------------------------
+eclipse.buildId=10.2
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/diegomartin/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Users/diegomartin/Development/GitHub/BlackBerryDevUSAL -keyring /Users/diegomartin/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.ui 2 0 2013-09-28 18:01:11.872
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-09-28 18:01:11.872
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='com.qnx.tools.ide.qde.ui', id='org.eclipse.ui.project.buildAll'
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2013-09-28 18:01:13.067
+!MESSAGE No binding context exists for org.eclipse.ui.contexts.dialog
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 18:02:03.818
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@15b6c19}
+
+!ENTRY org.eclipse.core.net 1 0 2013-09-28 18:02:06.289
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-09-28 18:02:21.666
+!MESSAGE No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta/iderepo/.
+
+!ENTRY com.qnx.tools.ide.bbt.core 2 -1 2013-09-28 18:02:27.076
+!MESSAGE No category "null" is defined in the library descriptors.
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 18:24:10.509
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@11ae2ce} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@15b6c19}
+
+!ENTRY com.qnx.tools.ide.sdk.manager.core 4 0 2013-09-28 18:24:24.256
+!MESSAGE No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at com.qnx.tools.ide.sdk.manager.core.internal.SDKManager.doRefresh(SDKManager.java:565)
+	at com.qnx.tools.ide.sdk.manager.core.internal.SDKManager.refresh(SDKManager.java:507)
+	at com.qnx.tools.ide.welcome.samples.SamplesServlet.handleInitialRequest(SamplesServlet.java:391)
+	at com.qnx.tools.ide.welcome.samples.SamplesServlet.doGet(SamplesServlet.java:81)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:180)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:386)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:598)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:486)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:192)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+	at org.eclipse.jetty.server.Server.handle(Server.java:350)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:630)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:77)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:606)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:46)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:603)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:538)
+	at java.lang.Thread.run(Thread.java:680)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-09-28 18:24:24.257
+!MESSAGE No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta.
+!SESSION 2013-09-28 19:56:24.180 -----------------------------------------------
+eclipse.buildId=10.2
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/diegomartin/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/diegomartin/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.ui 2 0 2013-09-28 19:56:39.419
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2013-09-28 19:56:39.419
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='com.qnx.tools.ide.qde.ui', id='org.eclipse.ui.project.buildAll'
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2013-09-28 19:56:39.502
+!MESSAGE No binding context exists for org.eclipse.ui.contexts.dialog
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 19:56:42.850
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.core.net 1 0 2013-09-28 19:56:43.957
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 19:56:53.324
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2013-09-28 19:56:55.745
+!MESSAGE No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta/iderepo/.
+
+!ENTRY com.qnx.tools.ide.bbt.core 2 -1 2013-09-28 19:56:58.548
+!MESSAGE No category "null" is defined in the library descriptors.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-09-28 19:57:10.212
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta/iderepo/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-09-28 19:57:10.213
+!MESSAGE No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta/iderepo/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2013-09-28 19:57:19.445
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta/iderepo/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:636)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-09-28 19:57:19.445
+!MESSAGE No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta/iderepo/.
+
+!ENTRY com.qnx.tools.ide.project.ui 2 -1 2013-09-28 19:58:33.210
+!MESSAGE Project category Executable has no associated project types
+
+!ENTRY com.qnx.tools.ide.bbt.core 2 -1 2013-09-28 19:59:16.815
+!MESSAGE No category "null" is defined in the library descriptors.
+
+!ENTRY com.qnx.tools.ide.bbt.core 2 -1 2013-09-28 19:59:42.946
+!MESSAGE No category "null" is defined in the library descriptors.
+
+!ENTRY com.qnx.tools.ide.sdk.manager.core 4 0 2013-09-28 19:59:44.326
+!MESSAGE No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:393)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:675)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at com.qnx.tools.ide.sdk.manager.core.internal.SDKManager.doRefresh(SDKManager.java:565)
+	at com.qnx.tools.ide.sdk.manager.core.internal.SDKManager.refresh(SDKManager.java:507)
+	at com.qnx.tools.ide.sdkmanager.ui.internal.SDKManagerDialog$8.run(SDKManagerDialog.java:378)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2013-09-28 19:59:44.326
+!MESSAGE No repository found at http://downloads.blackberry.com/upr/developers/update/bbndk/beta.
+
+!ENTRY org.eclipse.cdt.qt.core 1 0 2013-09-28 20:00:00.075
+!MESSAGE could not find Qt version in CDT index from project FewItems
+
+!ENTRY org.eclipse.cdt.qt.core 1 0 2013-09-28 20:00:00.140
+!MESSAGE could not find Qt version in CDT index from project FewItems
+
+!ENTRY org.eclipse.cdt.qt.core 1 0 2013-09-28 20:00:00.140
+!MESSAGE could not find Qt version in CDT index from project FewItems
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-09-28 20:00:15.187
+!MESSAGE Indexed 'FewItems' (2 sources, 596 headers) in 31.44 sec: 79,170 declarations; 109,828 references; 0 unresolved inclusions; 0 syntax errors; 18 unresolved names (0.01%)
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 20:10:20.883
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 20:20:30.860
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:17.405
+!MESSAGE Cannot resolve alias: null
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:17.528
+!MESSAGE Cannot resolve alias: null
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:19.128
+!MESSAGE Cannot resolve alias: null
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:19.272
+!MESSAGE Cannot resolve alias: null
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:19.430
+!MESSAGE Cannot resolve alias: null
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:19.698
+!MESSAGE Cannot resolve alias: null
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:21.764
+!MESSAGE Cannot resolve alias: null
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:23.888
+!MESSAGE Cannot resolve alias: null
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:25.690
+!MESSAGE Cannot resolve alias: null
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:25.958
+!MESSAGE Cannot resolve alias: Page {
+        titleBar: TitleBar {
+            // Localized text with the dynamic translation and locale updates support
+            title: qsTr("Generador QR") + Retranslate.onLocaleOrLanguageChanged
+        }
+
+        Container {
+            TextField {
+                id: recogerDatos
+                horizontalAlignment: HorizontalAlignment.Center
+                hintText: "Introduce el texto a convertir"
+            }
+
+            Button {
+                text: "Convertir"
+                verticalAlignment: VerticalAlignment.Center
+                horizontalAlignment: HorizontalAlignment.Center
+                onClicked: {
+                    // A second Page is created and pushed when this action is triggered.
+                    var poppedPage = secondPageDefinition.createObject()
+                    navigationPane.push(poppedPage);
+                }
+
+            }
+
+        }
+
+        /*actions: ActionItem {
+         * title: qsTr("Second page") + Retranslate.onLocaleOrLanguageChanged
+         * ActionBar.placement: ActionBarPlacement.OnBar
+         * 
+         * onTriggered: {
+         * // A second Page is created and pushed when this action is triggered.
+         * navigationPane.push(secondPageDefinition.createObject());
+         * }
+         * }
+         * }*/
+        
+        /*onPopTransitionEnded: {
+        // Destroy the popped Page once the back transition has ended.
+        poppedPage.destroy();
+        }*/
+
+        attachedObjects: [
+            // Definition of the second Page, used to dynamically create the Page above.
+            ComponentDefinition {
+                id: secondPageDefinition
+                source: "DetailsPage.qml"
+            }
+        ]
+
+    }
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:26.272
+!MESSAGE Cannot resolve alias: r
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:26.561
+!MESSAGE Cannot resolve alias: rec
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:26.805
+!MESSAGE Cannot resolve alias: reco
+
+!ENTRY com.rim.tad.tools.qml.core 2 0 2013-09-28 20:21:27.430
+!MESSAGE Cannot resolve alias: recoger
+
+!ENTRY org.eclipse.equinox.security 4 0 2013-09-28 20:41:28.932
+!MESSAGE Secure storage was unable to retrieve the master password from the OS keyring. Make sure that this application has access to the OS keyring. If the error persists, the password recovery feature could be used, or secure storage can be deleted and re-created.
+!STACK 0
+java.lang.SecurityException: Could not obtain password.  Result: -67061
+	at org.eclipse.equinox.internal.security.osx.OSXProvider.getPassword(Native Method)
+	at org.eclipse.equinox.internal.security.osx.OSXProvider.getPassword(OSXProvider.java:45)
+	at org.eclipse.equinox.internal.security.storage.PasswordProviderModuleExt.getPassword(PasswordProviderModuleExt.java:35)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesRoot.getModulePassword(SecurePreferencesRoot.java:259)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesRoot.getPassword(SecurePreferencesRoot.java:224)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.put(SecurePreferences.java:224)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.put(SecurePreferencesWrapper.java:110)
+	at com.qnx.tools.bbt.core.targets.credentials.PersistedTargetCredentialsProvider.setPersistedDevicePassword(PersistedTargetCredentialsProvider.java:153)
+	at com.qnx.tools.bbt.core.targets.credentials.PersistedTargetCredentialsProvider.setPersistedCredentials(PersistedTargetCredentialsProvider.java:81)
+	at com.qnx.tools.bbt.core.targets.credentials.PersistedTargetCredentialsProvider.setCredentials(PersistedTargetCredentialsProvider.java:72)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.createTargetConfiguration(BBTTargetUtil.java:297)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.createTargetUnsafe(BBTTargetUtil.java:267)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.access$0(BBTTargetUtil.java:255)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil$1.run(BBTTargetUtil.java:330)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.createTarget(BBTTargetUtil.java:337)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetTargetProvider.createTarget(BBTTargetTargetProvider.java:152)
+	at com.qnx.tools.ide.bbt.target.ui.internal.utils.BBTTargetUIUtil.createTarget(BBTTargetUIUtil.java:306)
+	at com.qnx.tools.ide.ui.e4.targets.manager.SimulatorConnectionPage$7.run(SimulatorConnectionPage.java:281)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 20:41:29.062
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.put(SecurePreferences.java:237)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.put(SecurePreferencesWrapper.java:110)
+	at com.qnx.tools.bbt.core.targets.credentials.PersistedTargetCredentialsProvider.setPersistedDevicePassword(PersistedTargetCredentialsProvider.java:153)
+	at com.qnx.tools.bbt.core.targets.credentials.PersistedTargetCredentialsProvider.setPersistedCredentials(PersistedTargetCredentialsProvider.java:81)
+	at com.qnx.tools.bbt.core.targets.credentials.PersistedTargetCredentialsProvider.setCredentials(PersistedTargetCredentialsProvider.java:72)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.createTargetConfiguration(BBTTargetUtil.java:297)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.createTargetUnsafe(BBTTargetUtil.java:267)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.access$0(BBTTargetUtil.java:255)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil$1.run(BBTTargetUtil.java:330)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.createTarget(BBTTargetUtil.java:337)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetTargetProvider.createTarget(BBTTargetTargetProvider.java:152)
+	at com.qnx.tools.ide.bbt.target.ui.internal.utils.BBTTargetUIUtil.createTarget(BBTTargetUIUtil.java:306)
+	at com.qnx.tools.ide.ui.e4.targets.manager.SimulatorConnectionPage$7.run(SimulatorConnectionPage.java:281)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.security 4 0 2013-09-28 20:41:36.613
+!MESSAGE Secure storage was unable to retrieve the master password from the OS keyring. Make sure that this application has access to the OS keyring. If the error persists, the password recovery feature could be used, or secure storage can be deleted and re-created.
+!STACK 0
+java.lang.SecurityException: Could not obtain password.  Result: -67061
+	at org.eclipse.equinox.internal.security.osx.OSXProvider.getPassword(Native Method)
+	at org.eclipse.equinox.internal.security.osx.OSXProvider.getPassword(OSXProvider.java:45)
+	at org.eclipse.equinox.internal.security.storage.PasswordProviderModuleExt.getPassword(PasswordProviderModuleExt.java:35)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesRoot.getModulePassword(SecurePreferencesRoot.java:259)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesRoot.getPassword(SecurePreferencesRoot.java:224)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.put(SecurePreferences.java:224)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.put(SecurePreferencesWrapper.java:110)
+	at com.qnx.tools.bbt.core.targets.credentials.PersistedTargetCredentialsProvider.setPersistedDevicePassword(PersistedTargetCredentialsProvider.java:153)
+	at com.qnx.tools.bbt.core.targets.credentials.PersistedTargetCredentialsProvider.setPersistedCredentials(PersistedTargetCredentialsProvider.java:81)
+	at com.qnx.tools.bbt.core.targets.credentials.PersistedTargetCredentialsProvider.setCredentials(PersistedTargetCredentialsProvider.java:72)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.createTargetConfiguration(BBTTargetUtil.java:297)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.createTargetUnsafe(BBTTargetUtil.java:267)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.access$0(BBTTargetUtil.java:255)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil$1.run(BBTTargetUtil.java:330)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.createTarget(BBTTargetUtil.java:337)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetTargetProvider.createTarget(BBTTargetTargetProvider.java:152)
+	at com.qnx.tools.ide.bbt.target.ui.internal.utils.BBTTargetUIUtil.createTarget(BBTTargetUIUtil.java:306)
+	at com.qnx.tools.ide.ui.e4.targets.manager.SimulatorConnectionPage$7.run(SimulatorConnectionPage.java:281)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 20:41:36.613
+!MESSAGE No password provided.
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.put(SecurePreferences.java:237)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.put(SecurePreferencesWrapper.java:110)
+	at com.qnx.tools.bbt.core.targets.credentials.PersistedTargetCredentialsProvider.setPersistedDevicePassword(PersistedTargetCredentialsProvider.java:153)
+	at com.qnx.tools.bbt.core.targets.credentials.PersistedTargetCredentialsProvider.setPersistedCredentials(PersistedTargetCredentialsProvider.java:81)
+	at com.qnx.tools.bbt.core.targets.credentials.PersistedTargetCredentialsProvider.setCredentials(PersistedTargetCredentialsProvider.java:72)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.createTargetConfiguration(BBTTargetUtil.java:297)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.createTargetUnsafe(BBTTargetUtil.java:267)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.access$0(BBTTargetUtil.java:255)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil$1.run(BBTTargetUtil.java:330)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetUtil.createTarget(BBTTargetUtil.java:337)
+	at com.qnx.tools.ide.bbt.target.core.internal.BBTTargetTargetProvider.createTarget(BBTTargetTargetProvider.java:152)
+	at com.qnx.tools.ide.bbt.target.ui.internal.utils.BBTTargetUIUtil.createTarget(BBTTargetUIUtil.java:306)
+	at com.qnx.tools.ide.ui.e4.targets.manager.SimulatorConnectionPage$7.run(SimulatorConnectionPage.java:281)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY com.qnx.tools.ide.ui.e4 4 2 2013-09-28 20:41:46.866
+!MESSAGE Problems occurred when invoking code from plug-in: "com.qnx.tools.ide.ui.e4".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:775)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:895)
+	at com.qnx.tools.utils.ui.core.DisplayUtil.run(DisplayUtil.java:127)
+	at com.qnx.tools.ide.ui.e4.targets.manager.DeviceManagementPage$ConnectTargetRunnable$2.done(DeviceManagementPage.java:333)
+	at org.eclipse.core.internal.jobs.JobListeners$3.notify(JobListeners.java:39)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:112)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:152)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:647)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:70)
+
+!ENTRY com.qnx.tools.ide.ui.e4 4 0 2013-09-28 20:41:47.002
+!MESSAGE Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+	at com.qnx.tools.ide.target.qconn.internal.core.QconnTargetConnectionDelegate.connect(QconnTargetConnectionDelegate.java:111)
+	at com.qnx.tools.ide.target.core.TargetConnection.connect(TargetConnection.java:80)
+	at com.qnx.tools.ide.ui.e4.targets.manager.DeviceManagementPage$ConnectTargetRunnable$1.run(DeviceManagementPage.java:323)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.qnx.tools.ide.target.core 8 -1 2013-09-28 20:41:47.002
+!MESSAGE Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+
+!ENTRY com.qnx.tools.ide.ui.e4 4 2 2013-09-28 20:48:11.944
+!MESSAGE Problems occurred when invoking code from plug-in: "com.qnx.tools.ide.ui.e4".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4361)
+	at org.eclipse.swt.SWT.error(SWT.java:4276)
+	at org.eclipse.swt.SWT.error(SWT.java:4247)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:775)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:895)
+	at com.qnx.tools.utils.ui.core.DisplayUtil.run(DisplayUtil.java:127)
+	at com.qnx.tools.ide.ui.e4.targets.manager.DeviceManagementPage$ConnectTargetRunnable$2.done(DeviceManagementPage.java:333)
+	at org.eclipse.core.internal.jobs.JobListeners$3.notify(JobListeners.java:39)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:112)
+	at org.eclipse.core.internal.jobs.JobListeners.done(JobListeners.java:152)
+	at org.eclipse.core.internal.jobs.JobManager.endJob(JobManager.java:647)
+	at org.eclipse.core.internal.jobs.WorkerPool.endJob(WorkerPool.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:70)
+
+!ENTRY com.qnx.tools.ide.ui.e4 4 0 2013-09-28 20:48:11.944
+!MESSAGE Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+	at com.qnx.tools.ide.target.qconn.internal.core.QconnTargetConnectionDelegate.connect(QconnTargetConnectionDelegate.java:111)
+	at com.qnx.tools.ide.target.core.TargetConnection.connect(TargetConnection.java:80)
+	at com.qnx.tools.ide.ui.e4.targets.manager.DeviceManagementPage$ConnectTargetRunnable$1.run(DeviceManagementPage.java:323)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.qnx.tools.ide.target.core 8 -1 2013-09-28 20:48:11.944
+!MESSAGE Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+
+!ENTRY com.qnx.tools.ide.ui.e4 4 0 2013-09-28 20:48:27.328
+!MESSAGE Unable to connect: Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to connect: Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+	at com.qnx.tools.ide.bbt.debug.core.internal.launch.BBTLaunchUtils.connectToTarget(BBTLaunchUtils.java:225)
+	at com.qnx.tools.ide.bbt.debug.core.internal.launch.BBTLaunchUtils.connectToTarget(BBTLaunchUtils.java:203)
+	at com.qnx.tools.ide.bbt.debug.core.internal.launch.BBTLaunchUtils.connectToTarget(BBTLaunchUtils.java:199)
+	at com.qnx.tools.ide.ui.e4.targets.ActiveTargetEventController$1.run(ActiveTargetEventController.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.qnx.tools.ide.bbt.debug.core 4 0 2013-09-28 20:48:27.329
+!MESSAGE Unable to connect: Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 20:48:51.174
+!MESSAGE Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+	at com.qnx.tools.ide.target.qconn.internal.core.QconnTargetConnectionDelegate.connect(QconnTargetConnectionDelegate.java:111)
+	at com.qnx.tools.ide.bbt.target.ui.internal.actions.ConnectBBTTargetAction$1.run(ConnectBBTTargetAction.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.qnx.tools.ide.target.core 8 -1 2013-09-28 20:48:51.174
+!MESSAGE Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 20:48:51.174
+!MESSAGE Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+	at com.qnx.tools.ide.target.qconn.internal.core.QconnTargetConnectionDelegate.connect(QconnTargetConnectionDelegate.java:111)
+	at com.qnx.tools.ide.bbt.target.ui.internal.actions.ConnectBBTTargetAction$1.run(ConnectBBTTargetAction.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.qnx.tools.ide.target.core 8 -1 2013-09-28 20:48:51.174
+!MESSAGE Unable to connect.  Ensure USB cable or Wi-Fi is connected, IP address is correct, and development mode is enabled.
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 20:48:56.178
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 20:49:00.431
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 20:49:57.938
+!MESSAGE Deployment Failed: Info: Sending request: INSTALL_AND_LAUNCH
+Info: Action: Install and Launch
+Info: Debug native: on
+Info: File size: 207859
+Info: Installing com.example.FewItems.testDev_le_FewItems7a7f9bf9...
+Info: Processing 207859 bytes
+
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 20:50:06.113
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 20:52:05.573
+!MESSAGE Unable to determine the application exit code
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 20:52:05.607
+!MESSAGE Unable to determine the application exit code
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 20:52:05.668
+!MESSAGE Unable to determine the application exit code
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 21:46:48.854
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 21:46:53.651
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 21:48:13.238
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 21:48:37.802
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 21:59:23.999
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:09:58.727
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:10:45.408
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:11:53.107
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:13:15.935
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:14:57.504
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:16:37.226
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:16:41.811
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:33:05.979
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:34:09.485
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.stopActive,Stop Build/Launch,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1300a49,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:34:10.028
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:34:54.417
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:36:34.676
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.jface 2 0 2013-09-28 22:37:27.594
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-09-28 22:37:27.594
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@e6ee39,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.rim.tad.tools.qml.core.editor.scope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@e6ee39,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:37:33.220
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.cdt.qt.core 1 0 2013-09-28 22:41:51.131
+!MESSAGE could not find Qt version in CDT index from project utilidades
+
+!ENTRY org.eclipse.cdt.qt.core 1 0 2013-09-28 22:41:51.233
+!MESSAGE could not find Qt version in CDT index from project utilidades
+
+!ENTRY org.eclipse.cdt.qt.core 1 0 2013-09-28 22:41:51.233
+!MESSAGE could not find Qt version in CDT index from project utilidades
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-09-28 22:42:18.114
+!MESSAGE Indexed 'utilidades' (2 sources, 586 headers) in 108.58 sec: 78,922 declarations; 109,554 references; 0 unresolved inclusions; 0 syntax errors; 18 unresolved names (0.01%)
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:42:35.437
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 22:51:47.807
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:07:34.542
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:14:41.864
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.jface 2 0 2013-09-28 23:16:18.247
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-09-28 23:16:18.247
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@18f1e5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@18f1e5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-09-28 23:16:18.247
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@111cb6a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@111cb6a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-09-28 23:16:18.247
+!MESSAGE A conflict occurred for COMMAND+G:
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1419ebf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(COMMAND+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1419ebf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-09-28 23:16:18.247
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@11d384c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@11d384c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-09-28 23:16:18.247
+!MESSAGE A conflict occurred for COMMAND+SHIFT+G:
+Binding(COMMAND+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@15b43b2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(COMMAND+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@15b43b2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-09-28 23:16:18.247
+!MESSAGE A conflict occurred for ALT+COMMAND+I:
+Binding(ALT+COMMAND+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@b99335,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+COMMAND+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@b99335,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-09-28 23:16:18.247
+!MESSAGE A conflict occurred for COMMAND+SHIFT+H:
+Binding(COMMAND+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@16f7df8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(COMMAND+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@16f7df8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-09-28 23:16:18.247
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@b758ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,cocoa,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@b758ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,cocoa,system)
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:22:23.583
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:27:09.063
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:29:39.059
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:30:34.283
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:31:43.725
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:38:12.239
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:41:00.172
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.buildActive,Build Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@19eb89,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:41:00.194
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:41:04.165
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.runActive,Run Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fdb32c,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:41:35.959
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.buildActive,Build Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@19eb89,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:41:35.960
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:41:50.109
+!MESSAGE Calling "Command(com.qnx.tools.ide.ui.e4.commands.buildActive,Build Active Project,
+		,
+		Category(com.qnx.tools.bbt.ui.commands.bbtos,BlackBerry,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@19eb89,
+		,,true)" command directly
+
+!ENTRY org.eclipse.ui 4 4 2013-09-28 23:41:50.110
+!MESSAGE Conflicting handlers for com.qnx.tools.ide.ui.e4.commands.buildActive: {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler@f30093} vs {com.qnx.tools.ide.ui.e4.command.BuildActiveCommandHandler}
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 23:45:17.263
+!MESSAGE Unable to determine the application exit code
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 23:45:17.264
+!MESSAGE Unable to determine the application exit code
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 23:45:17.286
+!MESSAGE Unable to determine the application exit code
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 23:45:17.303
+!MESSAGE Unable to determine the application exit code
+
+!ENTRY com.qnx.tools.bbt.core 4 0 2013-09-28 23:45:17.326
+!MESSAGE Unable to determine the application exit code
