@@ -4,12 +4,12 @@
 <context>
     <name>DetailsPage</name>
     <message>
-        <location filename="../assets/DetailsPage.qml" line="11"/>
+        <location filename="../assets/DetailsPage.qml" line="12"/>
         <source>Código</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../assets/DetailsPage.qml" line="17"/>
+        <location filename="../assets/DetailsPage.qml" line="18"/>
         <source>Resultado para: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -17,7 +17,7 @@
 <context>
     <name>main</name>
     <message>
-        <location filename="../assets/main.qml" line="15"/>
+        <location filename="../assets/main.qml" line="26"/>
         <source>Generador QR</source>
         <translation type="unfinished"></translation>
     </message>

@@ -1,0 +1,40 @@
+import bb.cascades 1.2
+
+Page {
+    Container {
+        layout: StackLayout {
+            
+        }
+        Label {
+            text: "Máquina del tiempo"
+            textStyle.textAlign: TextAlign.Center
+            textStyle.fontSize: FontSize.PointValue
+            textStyle.fontSizeValue: 15
+            /*layoutProperties: StackLayoutProperties {
+                spaceQuota: 1
+            }*/
+        }
+        DateTimePicker {
+            id: selectorTiempo
+            mode: DateTimePickerMode.Date
+            expanded: true
+            title: "Elige fecha"
+            /*layoutProperties: StackLayoutProperties {
+                spaceQuota: 7
+            }*/
+        }
+        
+        Button {
+            id: botonViajar
+            text: qsTr("Viajar")
+            horizontalAlignment: HorizontalAlignment.Center
+            /*layoutProperties: StackLayoutProperties {
+                spaceQuota: 10
+            }*/
+        }
+        WebView {
+        	visible: false
+        }
+
+    }
+}

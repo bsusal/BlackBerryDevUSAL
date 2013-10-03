@@ -13,10 +13,10 @@
                 </core>
             </qconn>
             <qconnostype value="nto"/>
-            <qconnhostname value="172.16.61.131"/>
             <project>
                 <name value="sim_10_2_0_1443"/>
             </project>
+            <qconnhostname value="172.16.61.131"/>
             <sim-id value="BlackBerry 10 Native SDK 10.2.0.1443"/>
         </item>
     </data>

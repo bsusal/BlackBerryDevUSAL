@@ -1,4 +1,4 @@
-22:34:55 **** Incremental Build of configuration Simulator-Debug for project FewItems ****
+15:19:48 **** Incremental Build of configuration Simulator-Debug for project FewItems ****
 make -j3 Simulator-Debug 
 make -C .//translations -f Makefile update
 make[1]: Entering directory `/Users/diegomartin/Development/GitHub/BlackBerryDevUSAL/FewItems/translations'
@@ -21,5 +21,5 @@ make[2]: Nothing to be done for `first'.
 make[2]: Leaving directory `/Users/diegomartin/Development/GitHub/BlackBerryDevUSAL/FewItems/x86'
 make[1]: Leaving directory `/Users/diegomartin/Development/GitHub/BlackBerryDevUSAL/FewItems/x86'
 
-22:34:56 Build Finished (took 372ms)
+15:19:54 Build Finished (took 5s.890ms)
 

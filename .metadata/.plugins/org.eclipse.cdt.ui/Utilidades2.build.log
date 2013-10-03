@@ -1,0 +1,25 @@
+18:19:08 **** Incremental Build of configuration Simulator-Debug for project Utilidades2 ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory `/Users/diegomartin/Development/GitHub/BlackBerryDevUSAL/Utilidades2/translations'
+/Applications/Momentics.app/host_10_2_0_15/darwin/x86/usr/bin/lupdate Utilidades2.pro
+Updating 'Utilidades2.ts'...
+    Found 3 source text(s) (0 new and 3 already existing)
+make[1]: Leaving directory `/Users/diegomartin/Development/GitHub/BlackBerryDevUSAL/Utilidades2/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory `/Users/diegomartin/Development/GitHub/BlackBerryDevUSAL/Utilidades2/translations'
+/Applications/Momentics.app/host_10_2_0_15/darwin/x86/usr/bin/lrelease Utilidades2.pro
+Updating '/Users/diegomartin/Development/GitHub/BlackBerryDevUSAL/Utilidades2/translations/Utilidades2.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 3 untranslated source text(s)
+make[1]: Leaving directory `/Users/diegomartin/Development/GitHub/BlackBerryDevUSAL/Utilidades2/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory `/Users/diegomartin/Development/GitHub/BlackBerryDevUSAL/Utilidades2/x86'
+make -f Makefile.Debug
+make[2]: Entering directory `/Users/diegomartin/Development/GitHub/BlackBerryDevUSAL/Utilidades2/x86'
+make[2]: Nothing to be done for `first'.
+make[2]: Leaving directory `/Users/diegomartin/Development/GitHub/BlackBerryDevUSAL/Utilidades2/x86'
+make[1]: Leaving directory `/Users/diegomartin/Development/GitHub/BlackBerryDevUSAL/Utilidades2/x86'
+
+18:19:16 Build Finished (took 8s.254ms)
+

@@ -1,0 +1,23 @@
+import bb.cascades 1.2
+
+TabbedPane {
+    showTabsOnActionBar: true
+    Tab { //First tab
+        // Localized text with the dynamic translation and locale updates support
+        title: qsTr("Conversor QR") + Retranslate.onLocaleOrLanguageChanged
+        content: GenerarQR {
+            
+        }
+        
+    } //End of first tab
+    Tab { //Second tab
+        title: qsTr("Fahrenheit-Centígrados") + Retranslate.onLocaleOrLanguageChanged
+        content: Fahrenheit {
+            
+        }
+    } //End of second tab
+    
+    Tab {
+        title: qsTr("Máquina del tiempo") + Retranslate.onLocaleOrLanguageChanged
+    }
+}
